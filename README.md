@@ -1,6 +1,6 @@
-# Node.js, Express and TypeScript Starter Project
+# Node.js, Express and TypeScript with ESM Starter Project
 
-This is a starter project for Node.js, Express and TypeScript.
+This is a starter project for Node.js, Express and TypeScript with ES Modules.
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ This is a starter project for Node.js, Express and TypeScript.
 ### Installing
 
 ```bash
-$ git clone https://github.com/mhm13dev/node-express-ts-starter.git --depth 1 <project-name>
+$ git clone https://github.com/mhm13dev/node-express-ts-esm-starter.git --depth 1 <project-name>
 $ cd <project-name>
 $ rm -rf .git
 $ git init
