@@ -16,7 +16,10 @@ import dotEnvExpand from "dotenv-expand";
  * ```
  */
 export const loadEnv = () => {
-  const projectRoot = path.resolve(__dirname, "../..");
+  const projectRoot = path.resolve(
+    new URL(import.meta.url).pathname,
+    "../../..",
+  );
 
   // Load environment specific local env file
   const envSpecificLocalEnvPath = path.join(

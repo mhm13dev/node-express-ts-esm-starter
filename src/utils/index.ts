@@ -1,1 +1,1 @@
-export { AppError } from "./app-error";
+export { AppError } from "./app-error.js";

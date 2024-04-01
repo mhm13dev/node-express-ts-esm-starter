@@ -3,7 +3,7 @@ import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
 import cors from "cors";
-import { AppError } from "src/utils";
+import { AppError } from "src/utils/index.js";
 
 const app = express();
 
