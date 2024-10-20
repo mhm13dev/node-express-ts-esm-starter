@@ -1,4 +1,4 @@
-# Node.js, Express and TypeScript with ESM Starter Template
+# Node.js, Express and TypeScript with ES Modules Starter Template
 
 This is a starter template for Node.js, Express and TypeScript with ES Modules.
 
