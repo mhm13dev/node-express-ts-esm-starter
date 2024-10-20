@@ -7,7 +7,7 @@ This is a starter template for Node.js, Express and TypeScript with ES Modules.
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/) (>= 22.10.0)
-- [PNPM](https://pnpm.io) (>=9.12.2)
+- [PNPM](https://pnpm.io) (>= 9.12.2)
 
 ### Installing
 
