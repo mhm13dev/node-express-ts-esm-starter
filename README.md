@@ -1,6 +1,6 @@
-# Node.js, Express and TypeScript with ESM Starter Project
+# Node.js, Express and TypeScript with ESM Starter Template
 
-This is a starter project for Node.js, Express and TypeScript with ES Modules.
+This is a starter template for Node.js, Express and TypeScript with ES Modules.
 
 ## Getting Started
 
