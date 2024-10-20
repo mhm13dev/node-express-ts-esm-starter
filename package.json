@@ -1,6 +1,6 @@
 {
   "name": "node-express-ts-esm-starter",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Node.js, Express and TypeScript with ESM Starter Project",
   "author": "mhm13dev",
   "private": true,
