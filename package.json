@@ -11,7 +11,7 @@
     "start": "cross-env NODE_ENV=production node dist/index.js",
     "watch:ts": "cross-env NODE_ENV=development tsc --watch --preserveWatchOutput --noEmit",
     "watch:tsx": "cross-env NODE_ENV=development tsx watch --clear-screen=false src/index.ts",
-    "start:dev": "concurrently --handle-input -k -n \"TS,TSX\" -p \"[{name}]\" -c \"yellow.bold,cyan.bold\" \"yarn watch:ts\" \"yarn watch:tsx\"",
+    "start:dev": "concurrently --handle-input -k -n \"TS,TSX\" -p \"[{name}]\" -c \"yellow.bold,cyan.bold\" \"pnpm run watch:ts\" \"pnpm run watch:tsx\"",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
     "format": "prettier --write ."
