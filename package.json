@@ -7,7 +7,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "cross-env NODE_ENV=production tsc && tsconfig-replace-paths --project tsconfig.json",
+    "build": "cross-env NODE_ENV=production tsc --project tsconfig.json && tsconfig-replace-paths --project tsconfig.json",
     "start": "cross-env NODE_ENV=production node dist/index.js",
     "watch:ts": "cross-env NODE_ENV=development tsc --watch --preserveWatchOutput --noEmit",
     "watch:tsx": "cross-env NODE_ENV=development tsx watch --clear-screen=false src/index.ts",
