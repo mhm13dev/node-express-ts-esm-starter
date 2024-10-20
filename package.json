@@ -1,7 +1,7 @@
 {
   "name": "node-express-ts-esm-starter",
-  "version": "2.2.0",
-  "description": "Node.js, Express and TypeScript with ESM Starter Project",
+  "version": "2.2.1",
+  "description": "Node.js, Express and TypeScript with ESM Starter Template",
   "author": "mhm13dev",
   "private": true,
   "license": "MIT",
